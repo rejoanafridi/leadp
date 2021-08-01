@@ -42,7 +42,7 @@ session_start();
 					</div>
 					<div class="form-group">
 
-						<input required class="form-control" name="mother" type="text" placeholder="Enter Your Teacher Name">
+						<input required class="form-control" name="teacher" type="text" placeholder="Enter Your Teacher Name">
 					</div>
 					<div class="form-group">
 
@@ -55,7 +55,7 @@ session_start();
 					</div>
 					<div class="form-group">
 
-						<input required class="form-control" name="district" type="text" placeholder="Enter Your section">
+						<input required class="form-control" name="section" type="text" placeholder="Enter Your section">
 					</div>
 
 			</div>
@@ -83,7 +83,7 @@ session_start();
 	<script src="js/bootstrap.min.js"></script>
 
 	<script>
-		function myFunction(){
+		function myFunction() {
 			alert('Seccesfully registered')
 		}
 	</script>
